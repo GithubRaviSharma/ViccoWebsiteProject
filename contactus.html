@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="icon" type="image/x-icon" href="vcc-logo.ico">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('./Images/Background.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            color: #333333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Make the body fill the entire viewport height */
+        }
+        .container {
+            max-width: 800px;
+            padding: 20px;
+            background-color: #ffffff; /* Setting background color to white */
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border: 2px solid black;
+        }
+        h1 {
+            text-align: center;
+        }
+        .contact-info {
+            margin-top: 20px;
+        }
+        .contact-info p {
+            margin: 10px 0;
+        }
+        form {
+            margin-top: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input[type="text"], textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #cccccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif; /* Apply the same font family as body */
+        }
+        input[type="submit"] {
+            background-color: #ff0000;
+            color: #ffffff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        input[type="submit"]:hover {
+            background-color: #b30900;
+        }
+    </style>
+</head>
+<body>
+    <div id="contact-id" class="container">
+        <h1>Contact Us</h1>
+        <div class="contact-info">
+            <p><strong>Address:</strong> Vikas Cable Company - 13 Haiderpur, Delhi - 110 088, India</p>
+            <p><strong>Phone:</strong> +91-11-27495529</p>
+            <p><strong>Email:</strong> vikascco@gmail.com</p>
+        </div>
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="f1d0c622-1345-4b66-8fb4-e742bb587031">
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
+
+
