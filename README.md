@@ -7,7 +7,7 @@ Welcome to the repository for the newly designed website for Vikas Cable Company
 ## Features
 
 - **Modern Design:** A clean, professional look that aligns with current web design trends.
-- **Responsive Layout:** The website is fully responsive and works well on desktops, tablets, and mobile devices.
+- **Responsive Layout:** The website is fully responsive and works well on desktops and laptops.
 - **Improved Navigation:** Enhanced user experience with intuitive navigation and accessible information.
 - **Product Showcase:** Detailed pages for products with high-quality images and descriptions.
 - **Contact Form:** A functional contact form to allow potential customers to get in touch easily.
