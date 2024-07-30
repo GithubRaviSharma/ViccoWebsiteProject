@@ -22,6 +22,4 @@ Welcome to the repository for the newly designed website for Vikas Cable Company
 
 If you have any questions, feel free to contact me at [ravisharma111241@gmail.com](mailto:ravisharma111241@gmail.com).
 
----
 
-Thank you for checking out the Vikas Cable Company website project! I hope you find it useful and professional.
