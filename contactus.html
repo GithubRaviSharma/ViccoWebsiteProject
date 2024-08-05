@@ -5,89 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
     <link rel="icon" type="image/x-icon" href="vcc-logo.ico">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-image: url('./Images/Background.png');
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-            color: #333333;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh; /* Make the body fill the entire viewport height */
-        }
-        .container {
-            max-width: 800px;
-            padding: 20px;
-            background-color: #ffffff; /* Setting background color to white */
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            border: 2px solid black;
-        }
-        h1 {
-            text-align: center;
-        }
-        .contact-info {
-            margin-top: 20px;
-        }
-        .contact-info p {
-            margin: 10px 0;
-        }
-        form {
-            margin-top: 20px;
-        }
-        label {
-            display: block;
-            margin-bottom: 5px;
-        }
-        input[type="text"], textarea {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 10px;
-            border: 1px solid #cccccc;
-            border-radius: 5px;
-            box-sizing: border-box;
-            font-family: Arial, sans-serif; /* Apply the same font family as body */
-        }
-        input[type="submit"] {
-            background-color: #ff0000;
-            color: #ffffff;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
-        }
-        input[type="submit"]:hover {
-            background-color: #b30900;
+            background-color: #e0e0e0; /* Replace this with your preferred background color */
         }
     </style>
 </head>
 <body>
-    <div id="contact-id" class="container">
-        <h1>Contact Us</h1>
-        <div class="contact-info">
-            <p><strong>Address:</strong> Vikas Cable Company - 13 Haiderpur, Delhi - 110 088, India</p>
-            <p><strong>Phone:</strong> +91-11-27495529</p>
-            <p><strong>Email:</strong> vikascco@gmail.com</p>
+    <section class="text-gray-600 body-font relative">
+        <div class="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
+            <div class="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+                <iframe width="100%" height="100%" class="absolute inset-0" frameborder="0" title="map" marginheight="0" marginwidth="0" scrolling="no" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3498.8927616065457!2d77.14127491118036!3d28.722750679876135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d0177a538c72b%3A0x913aea6a28f335cc!2sVikas%20Cable%20Company!5e0!3m2!1sen!2sin!4v1722842704536!5m2!1sen!2sin" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" style="filter: grayscale(1) contrast(1.2) opacity(0.4);"></iframe>
+                <div class="bg-white relative flex flex-wrap py-6 rounded shadow-md mx-auto max-w-full">
+                    <div class="lg:w-1/2 px-6">
+                        <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">ADDRESS</h2>
+                        <p class="mt-1">13, Haiderpur, Shalimar Bagh, Delhi, 110088</p>
+                    </div>
+                    <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
+                        <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">EMAIL</h2>
+                        <a class="text-indigo-500 leading-relaxed">info@vikascable.com</a>
+                        <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">PHONE</h2>
+                        <p class="leading-relaxed">+91-11-44775523</p>
+                    </div>
+                </div>
+            </div>
+            <div class="lg:w-1/3 md:w-1/2 bg-white text-gray-800 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-md">
+                <h2 class="text-gray-900 text-lg mb-1 font-bold font-medium title-font text-center">CONTACT US</h2>
+                <p class="leading-relaxed mb-5 text-gray-600 text-center">Your Feedback is very Valuable - Get in touch!</p>
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="f1d0c622-1345-4b66-8fb4-e742bb587031">
+                    <div class="relative mb-4">
+                        <label for="name" class="leading-7 text-sm text-gray-600">Name</label>
+                        <input type="text" id="name" name="name" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                    </div>
+                    <div class="relative mb-4">
+                        <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
+                        <input type="email" id="email" name="email" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                    </div>
+                    <div class="relative mb-4">
+                        <label for="message" class="leading-7 text-sm text-gray-600">Message</label>
+                        <textarea id="message" name="message" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+                    </div>
+                    <button type="submit" class="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg w-full">Submit</button>
+                    <p class="text-xs text-gray-500 mt-3 text-center">We will try to get in touch as soon as possible!</p>
+                </form>
+            </div>
         </div>
-        <form action="https://api.web3forms.com/submit" method="POST">
-            <input type="hidden" name="access_key" value="f1d0c622-1345-4b66-8fb4-e742bb587031">
-
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            <label for="email">Email:</label>
-            <input type="text" id="email" name="email" required>
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
-            <input type="submit" value="Submit">
-        </form>
-    </div>
+    </section>
 </body>
 </html>
-
 
