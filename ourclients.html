@@ -5,116 +5,320 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Our Clients</title>
-    <link rel="icon" type="image/x-icon" href="vcc-logo.ico">
-    <style>
-          body {
-            font-family: Arial, sans-serif;
-            background-image: url('./Images/Background.png');
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-            color: #333333;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh; /* Make the body fill the entire viewport height */
-            overflow: hidden;
-        }
-
-        .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    padding: 20px;
-}
-
-
-        .box {
-            width: 45%;
-            padding: 20px;
-            background-color: white;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            margin: auto; /* Center the boxes */
-            border: 2px solid black;
-        }
-
-        .box h2 {
-            text-align: center; /* Center-align the titles */
-        }
-
-        .box p {
-            font-size: 16px;
-            line-height: 1.6;
-            text-align: justify;
-            margin: 0; /* Remove default margin for paragraphs */
-        }
-    </style>
+    <link rel="icon" type="image/x-icon" href="./Images/vicco-logo.jpg">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 </head>
-
 <body>
-    <div class="container">
-        <div class="box">
-            <h2>Industries We Serve</h2>
-            <p>At Vikas Cable Company, we take pride in our extensive client base, built on a foundation of trust, quality, and reliability. Our clients span across various industries, including but not limited to:</p>
-            <ul>
-                <li>Infrastructure Development:</li>
-                <p>We have partnered with leading infrastructure development companies to provide high-quality cables for projects ranging from roads and bridges to airports and railways.</p>
-                <li>Energy Sector:</li>
-                <p>Our cables are trusted by energy companies for power generation, transmission, and distribution projects, ensuring efficient and reliable electricity supply to communities and industries.</p>
-                <li>Telecommunications:</li>
-                <p>We cater to the telecommunication industry by offering a range of cables for data transmission, telecommunications networks, and internet connectivity, meeting the demands of the digital age.</p>
-                <li>Construction Industry:</li>
-                <p>In the construction sector, Vikas Cable Company plays a crucial role in delivering reliable electrical solutions for a wide range of projects. We collaborate with prominent construction firms to provide high-quality cables essential for the development of infrastructure.</p>
-                <li>Manufacturing:</li>
-                <p>Our cables are utilized in various manufacturing processes, providing essential electrical connectivity for machinery and equipment in industries such as automotive, electronics, and textiles.</p>
-                <li>Government and Public Sector:</li>
-                <p>Vikas Cable Company is proud to serve government agencies and public sector organizations for their infrastructure and development projects, contributing to the growth and progress of the nation.</p>
-            </ul>
-            <p>At Vikas Cable Company, we are committed to delivering superior products and exceptional service to meet the diverse needs of our valued clients. We look forward to forging new partnerships and continuing to serve our clients with excellence.</p>
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-col text-center w-full mb-20">
+            <h1 class="sm:text-3xl text-2xl font-bold font-medium title-font mb-4 text-gray-900">Our Clients</h1>
+            <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Our extensive portfolio includes serving a diverse range of prestigious clients and leading companies across various sectors, demonstrating our commitment to delivering exceptional solutions and services.</p>
+          </div>
+          <div class="flex flex-wrap -m-2">
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-32 flex items-center border-gray-200 border p-4 rounded-lg relative">
+                <div class="absolute inset-0 w-full h-full flex items-center justify-center bg-white">
+                  <img class="w-38 h-16  object-cover object-center" src="./logo/powergrid.webp">
+                </div>
+                <div class="relative z-10 w-full h-full flex items-center justify-center bg-white opacity-0 hover:opacity-100">
+                  <h2 class="text-gray-900 title-font text-center font-medium">Powergrid Corporation of India</h2>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-32 flex items-center border-gray-200 border p-4 rounded-lg relative">
+                <div class="absolute inset-0 w-full h-full flex items-center justify-center bg-white">
+                  <img class="w-42 h-24 object-cover object-center" src="./logo/Tatalogo.png">
+                </div>
+                <div class="relative z-10 w-full h-24 flex items-center justify-center bg-white opacity-0 hover:opacity-100">
+                  <h2 class="text-gray-900 title-font text-center font-medium">Tata Projects Limited</h2>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-32 flex items-center border-gray-200 border p-4 rounded-lg relative">
+                <div class="absolute inset-0 w-full h-full flex items-center justify-center bg-white">
+                  <img class="w-42 h-16  object-cover object-center" src="./logo/ntpc.webp">
+                </div>
+                <div class="relative z-10 w-full h-full flex items-center justify-center bg-white opacity-0 hover:opacity-100">
+                  <h2 class="text-gray-900 title-font text-center font-medium">National Thermal Power Corporation</h2>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-32 flex items-center border-gray-200 border p-4 rounded-lg relative">
+                <div class="absolute inset-0 w-full h-full flex items-center justify-center bg-white">
+                  <img class="w-42 h-16   object-cover object-center" src="./logo/BHEL_logo.png">
+                </div>
+                <div class="relative z-10 w-full h-full flex items-center justify-center bg-white opacity-0 hover:opacity-100">
+                  <h2 class="text-gray-900 title-font text-center font-medium">Bharat Heavy Electricals Limited</h2>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-32 flex items-center border-gray-200 border p-4 rounded-lg relative">
+                <div class="absolute inset-0 w-full h-full flex items-center justify-center bg-white">
+                  <img class="w-42 h-24 object-cover object-center" src="./logo/aptransco.png">
+                </div>
+                <div class="relative z-10 w-full h-full flex items-center justify-center bg-white opacity-0 hover:opacity-100">
+                  <h2 class="text-gray-900 title-font text-center font-medium">Transmission Corporation of Andhra Pradesh</h2>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-32 flex items-center border-gray-200 border p-4 rounded-lg relative">
+                <div class="absolute inset-0 w-full h-full flex items-center justify-center bg-white">
+                  <img class="w-42 h-24 object-cover object-center" src="./logo/tamilnaduboard.png">
+                </div>
+                <div class="relative z-10 w-full h-24 flex items-center justify-center bg-white opacity-0 hover:opacity-100">
+                  <h2 class="text-gray-900 title-font text-center font-medium">Tamil Nadu Electricity Board</h2>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-32 flex items-center border-gray-200 border p-4 rounded-lg relative">
+                <div class="absolute inset-0 w-full h-full flex items-center justify-center bg-white">
+                  <img class="w-42 h-24 object-cover object-center" src="https://1000logos.net/wp-content/uploads/2020/08/Alstom-Logo.png">
+                </div>
+                <div class="relative z-10 w-full h-24 flex items-center justify-center bg-white opacity-0 hover:opacity-100">
+                  <h2 class="text-gray-900 title-font text-center font-medium">ALSTOM Limited</h2>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-32 flex items-center border-gray-200 border p-4 rounded-lg relative">
+                <div class="absolute inset-0 w-full h-full flex items-center justify-center bg-white">
+                  <img class="w-42 h-24 object-cover object-center" src="./logo/L&T.png">
+                </div>
+                <div class="relative z-10 w-full h-24 flex items-center justify-center bg-white opacity-0 hover:opacity-100">
+                  <h2 class="text-gray-900 title-font text-center font-medium">Larsen and Toubro Limited</h2>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-32 flex items-center border-gray-200 border p-4 rounded-lg relative">
+                <div class="absolute inset-0 w-full h-full flex items-center justify-center bg-white">
+                  <img class="w-42 h-16 object-cover object-center" src="./logo/techno.png">
+                </div>
+                <div class="relative z-10 w-full h-24 flex items-center justify-center bg-white opacity-0 hover:opacity-100">
+                  <h2 class="text-gray-900 title-font text-center font-medium">Techno Electric & Engg. Corporation</h2>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-32 flex items-center border-gray-200 border p-4 rounded-lg relative">
+                <div class="absolute inset-0 w-full h-full flex items-center justify-center bg-white">
+                  <img class="w-42 h-24 object-cover object-center" src="./logo/jaipur.png">
+                </div>
+                <div class="relative z-10 w-full h-32 flex items-center justify-center bg-white opacity-0 hover:opacity-100">
+                  <h2 class="text-gray-900 title-font text-center font-medium">Jaipur Vidyut Vitran Nigam Limited</h2>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-32 flex items-center border-gray-200 border p-4 rounded-lg relative">
+                <div class="absolute inset-0 w-full h-full flex items-center justify-center bg-white">
+                  <img class="w-42 h-12 object-cover object-center" src="./logo/sintex.png">
+                </div>
+                <div class="relative z-10 w-full h-24 flex items-center justify-center bg-white opacity-0 hover:opacity-100">
+                  <h2 class="text-gray-900 title-font text-center font-medium">Sintex Industries Limited</h2>
+                </div>
+              </div>
+            </div>
+            
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-32 flex items-center border-gray-200 border p-4 rounded-lg relative">
+                <div class="absolute inset-0 w-full h-full flex items-center justify-center bg-white">
+                  <img class="w-42 h-24 object-cover object-center" src="./logo/Uppcl-logo.png">
+                </div>
+                <div class="relative z-10 w-full h-24 flex items-center justify-center bg-white opacity-0 hover:opacity-100">
+                  <h2 class="text-gray-900 title-font text-center font-medium">Uttar Pradesh Power Corporation Limited</h2>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-32 flex items-center border-gray-200 border p-4 rounded-lg relative">
+                <div class="absolute inset-0 w-full h-full flex items-center justify-center bg-white">
+                  <img class="w-42 h-24 object-cover object-center" src="./logo/madhlogo.jpg">
+                </div>
+                <div class="relative z-10 w-full h-24 flex items-center justify-center bg-white opacity-0 hover:opacity-100">
+                  <h2 class="text-gray-900 title-font text-center font-medium"> Madhyanchal Vidyut Vitaran Nigam Limited</h2>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-32 flex items-center border-gray-200 border p-4 rounded-lg relative">
+                <div class="absolute inset-0 w-full h-full flex items-center justify-center bg-white">
+                  <img class="w-42 h-24 object-cover object-center" src="./logo/dakshlogo.jpg">
+                </div>
+                <div class="relative z-10 w-full h-24 flex items-center justify-center bg-white opacity-0 hover:opacity-100">
+                  <h2 class="text-gray-900 title-font text-center font-medium">Dakshinanchal Vidyut Vitran Nigam Limited</h2>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-32 flex items-center border-gray-200 border p-4 rounded-lg relative">
+                <div class="absolute inset-0 w-full h-full flex items-center justify-center bg-white">
+                  <img class="w-42 h-24 object-cover object-center" src="./logo/Jyotistructures.png">
+                </div>
+                <div class="relative z-10 w-full h-24 flex items-center justify-center bg-white opacity-0 hover:opacity-100">
+                  <h2 class="text-gray-900 title-font text-center font-medium">Jyoti Structures Limited</h2>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-32 flex items-center border-gray-200 border p-4 rounded-lg relative">
+                <div class="absolute inset-0 w-full h-full flex items-center justify-center bg-white">
+                  <img class="w-42 h-16 object-cover object-center" src="./logo/icomm.png">
+                </div>
+                <div class="relative z-10 w-full h-24 flex items-center justify-center bg-white opacity-0 hover:opacity-100">
+                  <h2 class="text-gray-900 title-font text-center font-medium">ICOMM Telecommunications Limited</h2>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-32 flex items-center border-gray-200 border p-4 rounded-lg relative">
+                <div class="absolute inset-0 w-full h-full flex items-center justify-center bg-white">
+                  <img class="w-42 h-24 object-cover object-center" src="./logo/kalpataru.webp">
+                </div>
+                <div class="relative z-10 w-full h-24 flex items-center justify-center bg-white opacity-0 hover:opacity-100">
+                  <h2 class="text-gray-900 title-font text-center font-medium"> Kalpataru Power Transmission Limited</h2>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-32 flex items-center border-gray-200 border p-4 rounded-lg relative">
+                <div class="absolute inset-0 w-full h-full flex items-center justify-center bg-white">
+                  <img class="w-42 h-48 object-cover object-center" src="./logo/jodhpurvidyut.png">
+                </div>
+                <div class="relative z-10 w-full h-24 flex items-center justify-center bg-white opacity-0 hover:opacity-100">
+                  <h2 class="text-gray-900 title-font text-center font-medium">Jodhpur Vidyut Vitran Nigam Limited</h2>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-32 flex items-center border-gray-200 border p-4 rounded-lg relative">
+                <div class="absolute inset-0 w-full h-full flex items-center justify-center bg-white">
+                  <img class="w-42 h-24 object-cover object-center" src="./logo/purvanchal.jpeg">
+                </div>
+                <div class="relative z-10 w-full h-24 flex items-center justify-center bg-white opacity-0 hover:opacity-100">
+                  <h2 class="text-gray-900 title-font text-center font-medium">Purvanchal Vidyut Vitran Nigam Limited</h2>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-32 flex items-center border-gray-200 border p-4 rounded-lg relative">
+                <div class="absolute inset-0 w-full h-full flex items-center justify-center bg-white">
+                  <img class="w-42 h-12 object-cover object-center" src="./logo/wabag.png">
+                </div>
+                <div class="relative z-10 w-full h-24 flex items-center justify-center bg-white opacity-0 hover:opacity-100">
+                  <h2 class="text-gray-900 title-font text-center font-medium"> VA Tech Wabag Limited</h2>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-32 flex items-center border-gray-200 border p-4 rounded-lg relative">
+                <div class="absolute inset-0 w-full h-full flex items-center justify-center bg-white">
+                  <img class="w-42 h-24 object-cover object-center" src="./logo/shyam.avif">
+                </div>
+                <div class="relative z-10 w-full h-24 flex items-center justify-center bg-white opacity-0 hover:opacity-100">
+                  <h2 class="text-gray-900 title-font text-center font-medium"> Shyam Indus Power Solutions</h2>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-32 flex items-center border-gray-200 border p-4 rounded-lg relative">
+                <div class="absolute inset-0 w-full h-full flex items-center justify-center bg-white">
+                  <img class="w-42 h-12 object-cover object-center" src="./logo/lanco.gif">
+                </div>
+                <div class="relative z-10 w-full h-24 flex items-center justify-center bg-white opacity-0 hover:opacity-100">
+                  <h2 class="text-gray-900 title-font text-center font-medium">Lanco Infratech Limited</h2>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-32 flex items-center border-gray-200 border p-4 rounded-lg relative">
+                <div class="absolute inset-0 w-full h-full flex items-center justify-center bg-white">
+                  <img class="w-42 h-24 object-cover object-center" src="./logo/HZL_Logo.png">
+                </div>
+                <div class="relative z-10 w-full h-24 flex items-center justify-center bg-white opacity-0 hover:opacity-100">
+                  <h2 class="text-gray-900 title-font text-center font-medium">Hindustan Zinc Limited</h2>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-32 flex items-center border-gray-200 border p-4 rounded-lg relative">
+                <div class="absolute inset-0 w-full h-full flex items-center justify-center bg-white">
+                  <img class="w-42 h-16 object-cover object-center" src="./logo/ubengi.png">
+                </div>
+                <div class="relative z-10 w-full h-24 flex items-center justify-center bg-white opacity-0 hover:opacity-100">
+                  <h2 class="text-gray-900 title-font text-center font-medium">UB Engineering</h2>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-32 flex items-center border-gray-200 border p-4 rounded-lg relative">
+                <div class="absolute inset-0 w-full h-full flex items-center justify-center bg-white">
+                  <img class="w-42 h-24 object-cover object-center" src="./logo/maytas.png">
+                </div>
+                <div class="relative z-10 w-full h-24 flex items-center justify-center bg-white opacity-0 hover:opacity-100">
+                  <h2 class="text-gray-900 title-font text-center font-medium">Maytas Infra Limited</h2>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-32 flex items-center border-gray-200 border p-4 rounded-lg relative">
+                <div class="absolute inset-0 w-full h-full flex items-center justify-center bg-white">
+                  <img class="w-42 h-16 object-cover object-center" src="./logo/millenium.png">
+                </div>
+                <div class="relative z-10 w-full h-24 flex items-center justify-center bg-white opacity-0 hover:opacity-100">
+                  <h2 class="text-gray-900 title-font text-center font-medium">Millenium Synergy Pvt. Limited</h2>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-32 flex items-center border-gray-200 border p-4 rounded-lg relative">
+                <div class="absolute inset-0 w-full h-full flex items-center justify-center bg-white">
+                  <img class="w-42 h-24 object-cover object-center" src="./logo/neyveli.png">
+                </div>
+                <div class="relative z-10 w-full h-24 flex items-center justify-center bg-white opacity-0 hover:opacity-100">
+                  <h2 class="text-gray-900 title-font text-center font-medium">Neyveli Lignite Corporation Limited</h2>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-32 flex items-center border-gray-200 border p-4 rounded-lg relative">
+                <div class="absolute inset-0 w-full h-full flex items-center justify-center bg-white">
+                  <img class="w-42 h-24 object-cover object-center" src="./logo/Reliance.png">
+                </div>
+                <div class="relative z-10 w-full h-24 flex items-center justify-center bg-white opacity-0 hover:opacity-100">
+                  <h2 class="text-gray-900 title-font text-center font-medium">Reliance Energy Limited</h2>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-32 flex items-center border-gray-200 border p-4 rounded-lg relative">
+                <div class="absolute inset-0 w-full h-full flex items-center justify-center bg-white">
+                  <img class="w-42 h-24 object-cover object-center" src="./logo/apgenco.png">
+                </div>
+                <div class="relative z-10 w-full h-24 flex items-center justify-center bg-white opacity-0 hover:opacity-100">
+                  <h2 class="text-gray-900 title-font text-center font-medium">Andhra Pradesh Power Generation Corporation</h2>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-32 flex items-center border-gray-200 border p-4 rounded-lg relative">
+                <div class="absolute inset-0 w-full h-full flex items-center justify-center bg-white">
+                  <img class="w-42 h-24 object-cover object-center" src="./Images/andmanymore.png">
+                </div>
+                <div class="relative z-10 w-full h-24 flex items-center justify-center bg-white opacity-0 hover:opacity-100">
+                  <h2 class="text-gray-900 title-font text-center font-medium">And Many More ...</h2>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="box">
-            <h2>Our Clients</h2>
-            <ol>
-                <li>Power Grid Corporation of India Ltd.</li>
-                <li>NTPC Ltd.</li>
-                <li>NTPC Electric Supply Company Limited</li>
-                <li>BHEL EDN, Bangalore</li>
-                <li>Vikram Sarabhai Space Centre, Kerala</li>
-                <li>Power Transmission Corporation of Uttarakhand Ltd</li>
-                <li>Transmission Corporation of Andhra Pradesh Ltd., Hyderabad</li>
-                <li>Andhra Pradesh Power Generation Corporation Ltd., Hyderabad</li>
-                <li>Tamil Nadu Electricity Board, Chennai</li>
-                <li>Gujarat Electricity Board, Vadodara</li>
-                <li>M.P. State Electricity Board, Jabalpur</li>
-                <li>Maharashtra State Electricity Board, Mumbai</li>
-                <li>Jodhpur Vidyut Vitran Nigam Ltd., Jodhpur.</li>
-                <li>Jaipur Vidyut Vitran Nigam Ltd., Jaipur.</li>
-                <li>Ajmer Vidyut Vitran Nigam Ltd., Ajmer.</li>
-                <li>Dakshinanchal Vidyut Vitran Nigam Ltd., Agra</li>
-                <li>Pashchimanchal Vidyut Vitran Nigam Limited, Meerut</li>
-                <li>Purvanchal Vidyut Vitran Nigam Limited, Varanasi</li>
-                <li>Kanpur Electric Supply Company Ltd., Kanpur</li>
-                <li>Madhyanchal Vidyut Vitran Nigam Ltd., Lucknow</li>
-                <li>Neyveli Lignite Corpn. Ltd, Neyveli</li>
-                <li>Reliance Energy Ltd.</li>
-                <li>ABB Ltd.</li>
-                <li>L&T Ltd.</li>
-                <li>British Gas Exploration & Production India Ltd.</li>
-                <li>Clough Engineering Ltd., Australia</li>
-                <li>ALSTOM Ltd.</li>
-                <li>Crompton Greaves Ltd., Madras</li>
-                <li>Techno Electric & Engg. Co. Ltd. Kolkata</li>
-                <li>Jyoti Structures Ltd., Mumbai</li>
-                <li>And many more</li>
-
-            </ol>
-        </div>
-    </div>
+      </section>
 </body>
-
 </html>
-
