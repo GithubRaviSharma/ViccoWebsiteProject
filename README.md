@@ -7,19 +7,22 @@ Welcome to the repository for the newly designed website for Vikas Cable Company
 ## Features
 
 - **Modern Design:** A clean, professional look that aligns with current web design trends.
-- **Responsive Layout:** The website is fully responsive and works well on desktops and laptops.
+- **Responsive Layout:** The website is fully responsive and works well on desktops, laptops, tablets, and mobile devices.
 - **Improved Navigation:** Enhanced user experience with intuitive navigation and accessible information.
 - **Product Showcase:** Detailed pages for products with high-quality images and descriptions.
 - **Contact Form:** A functional contact form to allow potential customers to get in touch easily.
 
-## Technologies Used
+## Live Demo
 
-- **HTML5 & CSS3:** For the structure and styling of the website.
-- **JavaScript:** For interactive elements and dynamic content.
-- **TailwindCSS:** For creating various structures and styling.
+You can view the live version of the website here: [Vikas Cable Company Website](https://githubravisharma.github.io/ViccoWebsiteProject/)
+
+## Screenshots
+
+![Homepage Screenshot](path_to_screenshot)
 
 ## Contact
 
 If you have any questions, feel free to contact me at [ravisharma111241@gmail.com](mailto:ravisharma111241@gmail.com).
+
 
 
