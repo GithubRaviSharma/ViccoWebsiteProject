@@ -16,10 +16,6 @@ Welcome to the repository for the newly designed website for Vikas Cable Company
 
 You can view the live version of the website here: [Vikas Cable Company Website](https://githubravisharma.github.io/ViccoWebsiteProject/)
 
-## Screenshots
-
-![Homepage Screenshot](path_to_screenshot)
-
 ## Contact
 
 If you have any questions, feel free to contact me at [ravisharma111241@gmail.com](mailto:ravisharma111241@gmail.com).
