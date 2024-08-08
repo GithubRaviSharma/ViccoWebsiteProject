@@ -18,7 +18,7 @@ You can view the live version of the website here: [Vikas Cable Company Website]
 
 ## Contact
 
-If you have any questions, feel free to contact me at [ravisharma111241@gmail.com](mailto:ravisharma111241@gmail.com).
+If you have any questions, feel free to contact me at [ravisharma111241@gmail.com](mailto:ravisharma111241@gmail.com)
 
 
 
